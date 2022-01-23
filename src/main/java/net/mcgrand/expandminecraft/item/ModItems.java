@@ -8,8 +8,8 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ModItems {
-    public static final Item MAGIC_WAND = registerItems("magic_wand", new Item(new FabricItemSettings().group(ItemGroup.COMBAT)));
-
+    public static final Item UNDEAD_STICK = registerItems("undead_stick", new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+    public static final Item UNDEAD_INGOT = registerItems("undead_ingot", new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
 
     private static Item registerItems(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(ExpandMinecraft.MOD_ID, name), item);
