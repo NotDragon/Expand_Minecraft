@@ -1,6 +1,7 @@
 package net.mcgrand.expandminecraft;
 
 import net.fabricmc.api.ModInitializer;
+import net.mcgrand.expandminecraft.block.ModBlocks;
 import net.mcgrand.expandminecraft.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,5 +13,6 @@ public class ExpandMinecraft implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlcoks();
 	}
 }
