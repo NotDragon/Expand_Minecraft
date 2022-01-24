@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "expandminecraft:undead_block"
+          "name": "expandminecraft:enderity_block"
         }
       ],
       "conditions": [

@@ -8,7 +8,7 @@ import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
 
-     UNDEAD(ModMiningLevels.UNDEAD, 2031, 13.0f, 4.5f, 25, () -> Ingredient.ofItems(ModItems.UNDEAD_INGOT));
+    ENDERITY(ModMiningLevels.ENDERITY, 1731, 10f, 4.5f, 25, () -> Ingredient.ofItems(ModItems.ENDERITY_INGOT));
 
     private final int miningLevel;
     private final int itemDurability;

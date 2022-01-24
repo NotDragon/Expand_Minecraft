@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "expandminecraft:raw_enderity_scrap"
+  },
+  "result": "expandminecraft:enderity_scrap",
+  "experience": 1,
+  "cookingtime": 600
+}

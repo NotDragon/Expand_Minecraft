@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "IiI",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "expandminecraft:enderity_scrap"
+    },
+    "i": {
+      "item": "expandminecraft:dragons_heart"
+    }
+  },
+  "result": {
+    "item": "expandminecraft:damaged_enderity_ingot"
+  }
+}

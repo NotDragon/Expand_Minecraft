@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "expandminecraft:undead_block"
+    "expandminecraft:enderity_block",
+    "expandminecraft:enderity_ore"
   ]
 }

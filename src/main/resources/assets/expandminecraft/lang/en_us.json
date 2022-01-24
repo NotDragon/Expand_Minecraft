@@ -1,5 +1,19 @@
 {
   "item.expandminecraft.undead_stick": "Undead Stick",
-  "item.expandminecraft.undead_ingot": "Undead Ingot",
-  "block.expandminecraft.undead_block": "Undead Block"
+  "item.expandminecraft.enderity_ingot": "Enderity Ingot",
+  "block.expandminecraft.enderity_block": "Enderity Block",
+  "item.expandminecraft.enderity_sword": "Enderity Sword",
+  "item.expandminecraft.enderity_helmet": "Enderity Helmet",
+  "item.expandminecraft.enderity_chestplate": "Enderity Chestplate",
+  "item.expandminecraft.enderity_leggings": "Enderity Leggings",
+  "item.expandminecraft.enderity_boots": "Enderity Boots",
+  "item.expandminecraft.enderity_scrap": "Enderity Scrap",
+  "item.expandminecraft.raw_enderity_scrap": "Raw Enderity Scrap",
+  "item.expandminecraft.dragons_heart": "Dragon's Heart",
+  "block.expandminecraft.enderity_ore": "Enderity Scrap Ore",
+  "item.expandminecraft.damaged_enderity_ingot": "Damaged Enderity Ingot",
+  "item.expandminecraft.enderity_shovel": "Enderity Shovel",
+  "item.expandminecraft.enderity_pickaxe": "Enderity Pickaxe",
+  "item.expandminecraft.enderity_axe": "Enderity Axe",
+  "item.expandminecraft.enderity_hoe": "Enderity Hoe"
 }

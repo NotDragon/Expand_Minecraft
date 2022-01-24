@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+  "III",
+  "IiI",
+  "III"
+  ],
+  "key": {
+  "I": {
+  "item": "minecraft:iron_ingot"
+  },
+  "i": {
+  "item": "expandminecraft:damaged_enderity_ingot"
+  }
+  },
+  "result": {
+  "item": "expandminecraft:enderity_ingot"
+  }
+}

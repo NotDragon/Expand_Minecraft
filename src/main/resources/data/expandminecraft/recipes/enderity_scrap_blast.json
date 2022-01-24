@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "group": "enderity_scrap",
+  "ingredient": {
+    "item": "expandminecraft:raw_enderity_scrap"
+  },
+  "result": "expandminecraft:enderity_scrap",
+  "experience": 1.2,
+  "cookingtime": 300
+}
