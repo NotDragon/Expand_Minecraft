@@ -2,6 +2,7 @@ package net.mcgrand.expandminecraft.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.mcgrand.expandminecraft.ExpandMinecraft;
+import net.mcgrand.expandminecraft.item.custom.DowsingRodItem;
 import net.mcgrand.expandminecraft.item.custom.ModAxeItem;
 import net.mcgrand.expandminecraft.item.custom.ModHoeItem;
 import net.mcgrand.expandminecraft.item.custom.ModPickaxeItem;
@@ -26,7 +27,9 @@ public class ModItems {
     public static final Item ENDERITY_SCRAP = registerItems("enderity_scrap", new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
     public static final Item DRAGONS_HEART = registerItems("dragons_heart", new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
     public static final Item DAMAGED_ENDERITY_INGOT = registerItems("damaged_enderity_ingot", new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
-    public static final Item GOD_SWORD = registerItems("god_sword", new SwordItem(ModToolMaterial.GOD, 2147483646, 2147483646, new FabricItemSettings().group(ItemGroup.COMBAT)));
+    public static final Item GOD_SWORD = registerItems("god_sword", new SwordItem(ModToolMaterial.GOD, 2147483646, 2147483646, new FabricItemSettings().group(ItemGroup.COMBAT)));//reuse texture for withered swored
+    public static final Item DOWSING_ROD = registerItems("dowsing_rod", new DowsingRodItem(new FabricItemSettings().group(ItemGroup.TOOLS).maxDamage(64)));
+
 
     private static Item registerItems(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(ExpandMinecraft.MOD_ID, name), item);

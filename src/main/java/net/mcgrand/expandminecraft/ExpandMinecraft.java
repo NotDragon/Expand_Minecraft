@@ -3,7 +3,9 @@ package net.mcgrand.expandminecraft;
 import net.fabricmc.api.ModInitializer;
 import net.mcgrand.expandminecraft.block.EnderityOreGen;
 import net.mcgrand.expandminecraft.block.ModBlocks;
+import net.mcgrand.expandminecraft.enchantment.ModEnchantments;
 import net.mcgrand.expandminecraft.item.ModItems;
+import net.mcgrand.expandminecraft.world.features.ModConfiguredFeatures;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -16,6 +18,9 @@ public class ExpandMinecraft implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlcoks();
 		EnderityOreGen.registerModOres();
+		ModConfiguredFeatures.registerConfiguredFeatures();
+		ModEnchantments.registerEnchantments();
+		System.out.println("Hello Fabric world!");
 
 	}
 }

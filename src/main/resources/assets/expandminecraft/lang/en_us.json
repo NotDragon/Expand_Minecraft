@@ -16,5 +16,7 @@
   "item.expandminecraft.enderity_pickaxe": "Enderity Pickaxe",
   "item.expandminecraft.enderity_axe": "Enderity Axe",
   "item.expandminecraft.enderity_hoe": "Enderity Hoe",
-  "item.expandminecraft.god_sword": "§4God Sword"
+  "item.expandminecraft.god_sword": "§4God Sword",
+  "enchantment.expandminecraft.life_steal": "Life Steal",
+  "item.expandminecraft.dowsing_rod": "§bDowsing Rod"
 }
