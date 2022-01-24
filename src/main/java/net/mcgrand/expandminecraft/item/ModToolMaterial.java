@@ -8,7 +8,10 @@ import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
 
-    ENDERITY(ModMiningLevels.ENDERITY, 1731, 10f, 4.5f, 25, () -> Ingredient.ofItems(ModItems.ENDERITY_INGOT));
+    ENDERITY(ModMiningLevels.ENDERITY, 1731, 10f, 4.5f, 25, () -> Ingredient.ofItems(ModItems.ENDERITY_INGOT)),
+    WITHERED(ModMiningLevels.WITHERED, 1900, 10f, 4.5f, 25, () -> Ingredient.ofItems(ModItems.ENDERITY_INGOT)),
+    GOD(ModMiningLevels.GOD, -1, 2147483646f,  2147483646f, 2147483646, () -> Ingredient.ofItems(ModItems.ENDERITY_INGOT)),
+    TEST(ModMiningLevels.TEST, 1, 1,  1, 1, () -> Ingredient.ofItems(ModItems.ENDERITY_INGOT));
 
     private final int miningLevel;
     private final int itemDurability;

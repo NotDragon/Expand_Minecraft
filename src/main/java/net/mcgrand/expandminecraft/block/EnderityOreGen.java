@@ -21,27 +21,29 @@ import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.feature.OreFeatureConfig;
 import net.minecraft.world.gen.feature.PlacedFeature;
 
+import static net.mcgrand.expandminecraft.block.ModBlocks.ENDERITY_ORE;
+
 public class EnderityOreGen implements ModInitializer {
     private static ConfiguredFeature<?, ?> ENDERITY_ORE_CONFIGURED_FEATURE =Feature.ORE
             .configure(new OreFeatureConfig(
                     new BlockMatchRuleTest(Blocks.END_STONE),
-                    ModBlocks.ENDERITY_ORE.getDefaultState(),
+                    ENDERITY_ORE.getDefaultState(),
                     9));
 
     public static PlacedFeature ENDERITY_ORE_PLACED_FEATURE = ENDERITY_ORE_CONFIGURED_FEATURE.withPlacement(
             CountPlacementModifier.of(20),
             SquarePlacementModifier.of(),
-            HeightRangePlacementModifier.uniform(YOffset.getBottom(), YOffset.fixed(256)));
+            HeightRangePlacementModifier.uniform(YOffset.getBottom(), YOffset.fixed(2147483646)));
 
     @Override
     public void onInitialize() {
         Registry.register(BuiltinRegistries.CONFIGURED_FEATURE,
-                new Identifier(ExpandMinecraft.MOD_ID, "block:enderity_ore"), ENDERITY_ORE_CONFIGURED_FEATURE);
-        Registry.register(BuiltinRegistries.PLACED_FEATURE, new Identifier(ExpandMinecraft.MOD_ID, "block:enderity_ore"),
+                new Identifier(ExpandMinecraft.MOD_ID, "expandminecraft:block/ModBlocks/enderity_ore"), ENDERITY_ORE_CONFIGURED_FEATURE);
+        Registry.register(BuiltinRegistries.PLACED_FEATURE, new Identifier(ExpandMinecraft.MOD_ID, "expandminecraft:block/ModBlocks/enderity_ore"),
                 ENDERITY_ORE_PLACED_FEATURE);
         BiomeModifications.addFeature(BiomeSelectors.foundInTheEnd(), GenerationStep.Feature.UNDERGROUND_ORES,
                 RegistryKey.of(Registry.PLACED_FEATURE_KEY,
-                        new Identifier(ExpandMinecraft.MOD_ID, "block:enderity_ore")));
+                new Identifier(ExpandMinecraft.MOD_ID, "expandminecraft:block/ModBlocks/enderity_ore")));
     }
 
     public static void registerModOres(){
