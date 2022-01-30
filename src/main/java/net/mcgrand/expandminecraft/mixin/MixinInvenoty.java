@@ -6,4 +6,5 @@ import org.spongepowered.asm.mixin.Mixin;
 @Mixin(value = Inventory.class)
 public class MixinInvenoty {
 
+
 }
