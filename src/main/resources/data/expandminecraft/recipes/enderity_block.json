@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "expandminecraft:undead_ingot"
+      "item": "expandminecraft:enderity_ingot"
     }
   },
   "result": {
-    "item": "expandminecraft:undead_block"
+    "item": "expandminecraft:enderity_block"
   }
 }

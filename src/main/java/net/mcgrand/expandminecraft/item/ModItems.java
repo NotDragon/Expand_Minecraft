@@ -29,6 +29,7 @@ public class ModItems {
     public static final Item DAMAGED_ENDERITY_INGOT = registerItems("damaged_enderity_ingot", new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
     public static final Item GOD_SWORD = registerItems("god_sword", new SwordItem(ModToolMaterial.GOD, 2147483646, 2147483646, new FabricItemSettings().group(ItemGroup.COMBAT)));//reuse texture for withered swored
     public static final Item DOWSING_ROD = registerItems("dowsing_rod", new DowsingRodItem(new FabricItemSettings().group(ItemGroup.TOOLS).maxDamage(64)));
+    public static final Item APPLE_OF_THE_END = registerItems("apple_of_the_end", new Item(new FabricItemSettings().group(ItemGroup.FOOD).food(ModFoodCompoments.APPLE_OF_THE_END_COMP)));
 
 
     private static Item registerItems(String name, Item item){
